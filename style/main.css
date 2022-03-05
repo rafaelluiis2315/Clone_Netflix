@@ -1,0 +1,157 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* elemento base */
+body {
+    background: var(--preto);
+    font-family: 'Arial', times, serif;
+    color: white;
+}
+
+.top {
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .50), #141414 100%), url('/img/capa-rick_and_morty.jpg') center;
+    height: 550px;
+    background-size: cover;
+
+
+}
+
+header .conteiner {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header .logo {
+    height: 40px;
+    background-size: cover;
+    margin-right: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.nav_secun {
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+.nav_secun .botao2 {
+    background: transparent;
+    border: none;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.nav_secun i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav_secun i .selec {
+    background: transparent;
+    width: 20px;
+    border: none;
+    border-radius: 2px;
+    color: black;
+    outline-style: none;
+}
+
+/* filme principal */
+
+.filme-principal {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao {
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    margin-top: 15%;
+    height: 100px;
+
+
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    translate: .5s ease all;
+}
+
+.botao:hover {
+    background-color: rgba(250, 250, 250, .50);
+    color: var(--preto);
+}
+
+.botao i {
+    margin-right: 15px;
+}
+
+.botoes a{
+    background-color: transparent;
+    color: transparent;
+}
+.conteiner {
+    margin-left: 40px;
+}
+
+.filme-principal .conteiner {
+    width: 70%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+h3{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+
